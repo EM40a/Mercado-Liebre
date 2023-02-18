@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="64x64" href="resources/img/favicon.ico">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <header class="header">
+            <nav class="nav">
+                <fifure class="heroPicture">
+                    <a href="index.html" title="Inicio">
+                        <img src="resources/img/mercado-liebre.png" alt="Mercado Liebre">
+                    </a>
+                </fifure>
+
+                <span class="nav__contentIcon">
+                    <button class="nav__icon">
+                        <i class="fa-solid fa-bars" id="iconHamburger"></i>
+                    </button>
+                </span>
+
+                <div class="nav__login" id="navLogin">
+                    <span>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        Todos los productos en un solo lugar
+                    </span>
+
+                    <div class="nav__links">
+                        <a href="#">Crea tu cuenta 
+                            <i class="fa-solid fa-address-card"></i>
+                        </a>
+
+                        <button type="button" class="btn-primary">
+                            Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <main class="main">
+            <div class="carousel-contain">
+                <button aria-label="Previous" class="carousel__prev carousel__icon">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="carousel">
+                    <img src="resources/img/banner1.jpg" alt="Banner1">
+                    <img src="resources/img/banner2.jpg" alt="Banner2">
+                    <img src="resources/img/banner3.jpg" alt="Banner3">
+                </div>
+
+
+                <button aria-label="Next" class="carousel__next carousel__icon">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <div role="tablist" class="carousel__indicator"></div>
+            </div>
+            <!-- Productos -->
+            <section>
+                <h3 class="title">Disfruta de Nuestros Productos</h3>
+                <div class="box-container box-container__productos">
+                    <div class="box">
+                        <img src="resources/img/productos/img-macbook-pro-2019.jpg" alt="Macbook">
+                        <div class="product-info">
+                            <h4>Macbook Pro 2019</h4>
+                            <button type="button" class="btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="resources/img/productos/img-cafetera-moulinex.jpg" alt="cafetera">
+                        <div class="product-info">
+                            <h4>Cafetera Moulinex</h4>
+                            <button type="button" class="btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="resources/img/productos/img-tv-samsung-smart.jpg" alt="LG">
+                        <div class="product-info">
+                            <h4>TV LG 40 Pulgadas</h4>
+                            <button type="button" class="btn-primary">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="resources/img/productos/img-iphone-xs.jpg" alt="Iphone XS">
+                        <div class="product-info">
+                            <h4>Apple iPhone XS</h4>
+                            <button type="button" class="btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Productos Destacados -->
+            <section>
+                <h3 class="title">Productos Destacados</h3>
+                <form class="box-container box-container__destacados">
+                    <div class="box box_2">
+                        <img src="resources/img/productos/img-samsung-galaxy-s10.jpg" alt="s10">
+                        <div class="centro">
+                            <h4 class="">Smartphone Samsung Galaxy S10</h4>
+                        </div>
+                    </div>
+
+                    <div class="box box_2">
+                        <img src="resources/img/productos/img-tv-xiaomi-smart.jpg" alt="Smart Tv Xiaomi Mi Tv">
+                        <div class="centro">
+                            <h4>Smart Tv Xiaomi Mi Tv</h4>
+                        </div>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content footer__flex">
+                <fifure class="heroPicture">
+                    <a href="index.html" title="Inicio">
+                        <img src="resources/img/mercado-liebre.png" alt="Mercado Liebre">
+                    </a>
+                    <figcaption>Todos los productos en un solo lugar</figcaption>
+                </fifure>
+
+                <div class="footer__socialMedia footer__flex">
+                    <h2 class="title">Contactanos</h2>
+                    <ul>
+                        <a href="https://www.github.com/Em40a" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/Em40a.s" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.twitter.com/Em40a" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://web.whatsapp.com/send?phone=541132783612" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="footer__links footer__flex">
+                <ul>
+                    <a href="#">Mi cuenta</a>
+                    <a href="#">Historial</a>
+                    <a href="#">Favoritos</a>
+                    <a href="#">Categoría</a>
+                    <a href="#">Ayuda</a>
+                </ul>
+                <ul>
+                    <a href="#">Mis compras</a>
+                    <a href="#">Ofertas</a>
+                    <a href="#">Tiendas oficiales</a>
+                    <a href="#">Mercado Puntos</a>
+                    <a href="#">Vender</a>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Made with 💖 &#169;Copyright <a href="https://github.com/EM40a" target="_blank">Em40a</a>. All right
+                    reserved.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/kitFontAwesome.js"></script>
+    <script src="js/glider.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
