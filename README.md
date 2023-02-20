@@ -1,6 +1,6 @@
 # Mercado Liebre🐰
 
-Una SPA (Single Page Application) sobre Mercado Liebre, la principal competencia de mercado libre en estos tiempos.
+Una Single-Page Application (SPA) sobre Mercado Liebre, la principal competencia de Mercado Libre en estos tiempos.
 
 👉 [https://store-mercadoliebre.app/](https://store-mercadoliebre.netlify.app/)
 
